@@ -33,7 +33,7 @@ class BooksCollector:
     def get_books_rating(self):
         return self.books_rating
 
-    # добавляем книгу в Избранное
+    # добавляем книгу в Избранное# добавляем книгу в Избранное
     def add_book_in_favorites(self, name):
         if self.books_rating.get(name):
             if name not in self.favorites:
@@ -47,3 +47,4 @@ class BooksCollector:
     # получаем список Избранных книг
     def get_list_of_favorites_books(self):
         return self.favorites
+
