@@ -20,5 +20,5 @@ def test_delete_book_from_favorites_delete_book
 def test_list_of_favorites_books_add_book_in_faivorits В данном тесте я 
 проверил корректность формирования списка любимых книг
 
-ссылка на pull reqest 
+ссылка на pull reqest https://github.com/sergeycd/qa_python/pull/1
 
